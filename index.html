@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, BootStrap">
+  <meta name="description" content="El presente es el proyecto final de UNTREF Frontend comisión 1.">
+  <meta name="author" content="Fuentes Daniel Alejandro">
+  <!-- BootStrap - CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/master.css">
+  <link rel="shortcut icon" href="./img/Blockbuster-Logо.png" type="image/x-icon">
+    <title>Proyecto Final - Fuentes Alejandro</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container-fluid">
+        <div id="logo_navbar">
+          <a class="navbar-brand" href="#">
+            <img src="./img/Blockbuster-Logо.png" alt="Blockbuster-Logо">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav d-flex gap-0 column-gap-4">
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-black" aria-current="page" id="inicio">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-medium text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Películas
+              </a>
+              <ul class="dropdown-menu bg-transparent border-0">
+                <li><a class="dropdown-item d-i" id="moviesTopFive">Top 5 Lo más visto</a></li>
+                <li><a class="dropdown-item d-i" id="moviesTopTen">Estrenos</a></li>
+                <li><a class="dropdown-item d-i" id="moviesAll">Listado completo</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-medium text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Series
+              </a>
+              <ul class="dropdown-menu bg-transparent border-0 dontWork">
+                <li><a class="dropdown-item d-i">Top 5 Lo más visto</a></li>
+                <li><a class="dropdown-item d-i">Estrenos</a></li>
+                <li><a class="dropdown-item d-i">Listado completo</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-medium text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Géneros
+              </a>
+              <ul class="dropdown-menu bg-transparent border-0">
+                <li><a class="dropdown-item d-i" id="action28">Accion</a></li>
+                <li><a class="dropdown-item d-i" id="adventure12">Aventura</a></li>
+                <li><a class="dropdown-item d-i" id="animation16">Animación</a></li>
+                <li><a class="dropdown-item d-i" id="sF878">Ciencia ficción</a></li>
+                <li><a class="dropdown-item d-i" id="crime80">Crimen</a></li>
+                <li><a class="dropdown-item d-i" id="drama18">Drama</a></li>
+                <li><a class="dropdown-item d-i" id="family10751">Familia</a></li>
+                <li><a class="dropdown-item d-i" id="fantasy14">Fantasía</a></li>
+                <li><a class="dropdown-item d-i" id="mistery9648">Misterio</a></li>
+                <li><a class="dropdown-item d-i" id="romance10749">Romance</a></li>
+                <li><a class="dropdown-item d-i" id="thriller53">Suspenso</a></li>
+                <li><a class="dropdown-item d-i" id="horror27">Terror</a></li>
+              </ul>
+            </li>
+            <li class="nav-item w-50">
+              <a class="nav-link fw-medium text-black" aria-current="page" href="./mi-lista.html">Mi Lista</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+    <main>
+      <div id="fr-movie">
+        <!-- Cartelera de la película 1° -->        
+      </div>
+    </main>
+    <section>
+      <div id="gallery" class="row m-0 p-0 justify-content-around">
+        <!-- Galeria de películas de la 2° a la 13° -->
+      </div>
+    </section>
+    <footer>     
+    </footer>
+    <!-- BootStrap - JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/generos.js"></script>
+    <!-- Sweetalert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

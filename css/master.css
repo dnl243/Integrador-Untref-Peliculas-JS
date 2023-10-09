@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(#fff2, #fff2), url('https://www.turismodebolsillo.com.ar/media/novedades/1597618353_interior-Blockbuster-Airbnb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+nav{
+    background-image: linear-gradient(to top, rgba(0,0,0,0), rgb(145, 200, 255));;
+}
+#inicio:hover{
+    cursor: pointer;
+}
+#logo_navbar a img{
+    margin-left: 30px;
+    width: 130px;
+}
+.d-i{
+    color: #fff;
+    font-weight: bold;
+}
+.d-i:hover {
+    background-color: #0000;
+    text-shadow: 0 0 5px #ecae3b, 0 0 5px #ecae3b;
+    color: #000;
+    cursor: pointer;
+}
+/* First movie - index*/
+#fr-movie{
+    margin: 100px 10px 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cont-banner{
+    background-image: linear-gradient(#91c8ff11,#91c8ff99,#91c8ff11);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+/* Gallery */
+.card-img-top{
+    width: 100%;
+}
+.card-title{
+    color: #000;
+    text-shadow: 1px 0px 1px #ddd;
+}
+.card img:hover{
+    box-shadow: 0px 5px 5px#000;
+}
+/* First movie - detalle*/
+#movie-detail{
+    padding: 20px 10px -10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cont-detail{
+    background-image: linear-gradient(#91c8ff11,#91c8ff99,#91c8ff11);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* mi lista */
+#myGallery{
+    margin: 10px;
+    padding-top: 70px;
+}
+
+
+
