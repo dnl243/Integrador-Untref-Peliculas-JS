@@ -1,6 +1,5 @@
 let myGallery = document.querySelector('#myGallery');
 let listMovies = JSON.parse(localStorage.getItem('listMovies'))
-console.log(listMovies);
 
 if (listMovies == null) {
   myGallery.innerHTML=`

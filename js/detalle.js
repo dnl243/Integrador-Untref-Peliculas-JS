@@ -3,7 +3,7 @@ let code = location.search;
 let codeSelected = new URLSearchParams(code);
 // console.log(codeSelected);
 let codeMovie = codeSelected.get('codigo');//codigo es la clave que ponemos en la URL
-console.log(codeMovie);
+// console.log(codeMovie);
 let movie;
 const movieDetailHTML = document.querySelector('#movie-detail');
 
@@ -12,12 +12,10 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=17c89d9fa3c16b97f05929
   return respuesta.json()
 })
 .then((moviesData)=>{
-  console.log(moviesData.results);
 function findMovie(mData) {
   return mData.id == codeMovie;
 }
 movie = moviesData.results.find(findMovie);
-  console.log(movie);
 // first movie
   movieDetailHTML.innerHTML =`
     <div class="card mb-3 bg-transparent border-0 w-75 mt-5">

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(#fff2, #fff2), url('https://www.turismodebolsillo.com.ar/media/novedades/1597618353_interior-Blockbuster-Airbnb.jpg');
+    background-image: linear-gradient(#fff2, #fff2), url('../img/blockbuster.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
